@@ -1,4 +1,4 @@
-import 'package:book_finder_app/home_screen.dart';
+import 'package:book_finder_app/features/find_books/presentation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
