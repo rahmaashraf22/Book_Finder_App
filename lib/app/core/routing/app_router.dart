@@ -7,5 +7,6 @@ class AppRouter {
       case '/':
         return MaterialPageRoute(builder: (_) => const HomeScreen());
     }
+    return null;
   }
 }

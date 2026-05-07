@@ -5,10 +5,6 @@ class BookFinderApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Book Finder App'),
-      ),
-    );
+    return const Scaffold(body: Center(child: Text('Book Finder App')));
   }
 }

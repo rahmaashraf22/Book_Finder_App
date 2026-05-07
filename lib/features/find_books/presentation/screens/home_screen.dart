@@ -14,21 +14,24 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('ShelfWise')),
-      body: Center(child: Column(
-        children: [
-          const Text('Welcome to ShelfWise!'),
-          ElevatedButton(
-            onPressed: () {
-              CounterState counterState = CounterState(0);
-              counterState.counterValue++;
-              counterState.printCounter();
+      body: Center(
+        child: Column(
+          children: [
+            const Text('Welcome to ShelfWise!'),
+            ElevatedButton(
+              onPressed: () {
+                CounterState counterState = CounterState(0);
+                counterState.counterValue++;
+                counterState.printCounter();
 
-              setState(() {});
-            },
-            child: const Text('Increment Counter'),
-          ),],
-      ), ),
-      
+                setState(() {});
+              },
+              child: const Text('Increment Counter'),
+            ),
+          ],
+        ),
+      ),
+
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: (index) {
@@ -51,9 +54,9 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 class CounterState {
-   int counterValue ;
+  int counterValue;
   CounterState(this.counterValue);
-  printCounter() {
+  void printCounter() {
     print('Counter Value: $counterValue');
   }
 }

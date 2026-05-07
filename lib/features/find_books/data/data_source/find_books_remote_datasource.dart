@@ -1,3 +1,6 @@
+import 'package:book_finder_app/app/core/network/base_response.dart';
+import 'package:book_finder_app/features/find_books/data/models/books_model.dart';
+
 abstract class FindBooksRemoteDatasource {
-  Future<List<dynamic>> getBooks();
+  Future<BaseResponse<List<BooksModel>>> getBooks();
 }
