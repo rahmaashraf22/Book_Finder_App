@@ -1,3 +1,4 @@
+import 'package:book_finder_app/app/core/constants/app_constants.dart';
 import 'package:book_finder_app/app/core/routing/app_router.dart';
 import 'package:book_finder_app/app/core/theme/app_theme.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +17,7 @@ class BookFinderApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       onGenerateRoute: AppRouter().onGenerateRoute,
-      title: 'Book Finder App',
+      title: AppConstants.appName,
       theme: AppTheme.darkTheme,
     );
   }
