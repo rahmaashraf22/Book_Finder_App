@@ -35,10 +35,10 @@ dependencies:
   http: any
 dev_dependencies:
   bloc: ^9.1.0
+  flutter_launcher_icons: ^0.14.4
   flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
-  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
