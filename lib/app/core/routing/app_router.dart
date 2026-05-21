@@ -1,4 +1,4 @@
-import 'package:book_finder_app/features/find_books/presentation/view/pages/find_book_page.dart';
+import 'package:book_finder_app/features/discover_books/presentation/view/pages/discover_book_page.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {

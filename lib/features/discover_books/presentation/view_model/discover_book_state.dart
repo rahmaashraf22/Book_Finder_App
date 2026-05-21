@@ -1,4 +1,4 @@
-part of 'find_book_cubit.dart';
+part of 'discover_book_cubit.dart';
 
 @immutable
 abstract class FindBookState {}
