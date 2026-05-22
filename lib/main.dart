@@ -18,7 +18,7 @@ class BookFinderApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       onGenerateRoute: AppRouter().onGenerateRoute,
       title: AppConstants.appName,
-      theme: AppTheme.darkTheme,
+      theme: AppTheme.lightTheme,
     );
   }
 }
