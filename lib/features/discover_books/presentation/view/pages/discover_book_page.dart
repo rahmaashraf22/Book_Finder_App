@@ -1,33 +1,33 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+class DiscoverBookPage extends StatefulWidget {
+  const DiscoverBookPage({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<DiscoverBookPage> createState() => _DiscoverBookPageState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _DiscoverBookPageState extends State<DiscoverBookPage> {
   int _selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('ShelfWise')),
+      // appBar: AppBar(title: const Text('ShelfWise')),
       body: Center(
         child: Column(
           children: [
-            const Text('Welcome to ShelfWise!'),
-            ElevatedButton(
-              onPressed: () {
-                CounterState counterState = CounterState(0);
-                counterState.counterValue++;
-                counterState.printCounter();
+            // const Text('Welcome to ShelfWise!'),
+            // ElevatedButton(
+            //   onPressed: () {
+            //     CounterState counterState = CounterState(0);
+            //     counterState.counterValue++;
+            //     counterState.printCounter();
 
-                setState(() {});
-              },
-              child: const Text('Increment Counter'),
-            ),
+            //     setState(() {});
+            //   },
+            //   child: const Text('Increment Counter'),
+            // ),
           ],
         ),
       ),

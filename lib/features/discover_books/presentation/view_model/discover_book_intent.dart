@@ -3,3 +3,4 @@ import 'package:book_finder_app/features/discover_books/presentation/view_model/
 sealed class FndBookIntent {}
 
 class GetAllBooks extends FndBookIntent {}
+
